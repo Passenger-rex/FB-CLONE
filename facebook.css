@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:  #f0f2f5;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 100px 10%;
+    align-content: center;
+    z-index: 99;
+    position: fixed;
+}
+
+/*LOGIN BOX*/
+.form-box{
+    position: relative;
+    width: 456px;
+    height: 396px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    position: relative;
+    
+    margin: 17px 0;
+}
+
+.input-box input{
+    width: 90%;
+    height: 50px;
+    border: 1px solid #dddfe2;
+    font-size: 1em;
+    font-weight: 400;
+    color: #001100;
+    padding: 0 50px 0 10px;
+    border-radius: 6px;
+    margin-left: 23px;
+}
+
+.btn{
+    width: 90%;
+    height: 50px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+
+.remember-forgot{
+    margin-bottom: 30px;
+}
+
+.remember-forgot a{
+    color: #1877f2;
+    font-size: .9em;
+    font-weight: 500;
+    font-family: inherit;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.free{
+    width: 90%;
+    border-bottom-style: inset;
+    border-width: 1px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    background-color: #000;
+}
+
+
+.btn2{
+    width: 50%;
+    height: 55px;
+    background-color: #42b72a;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 25%;
+}
+
+.landword{
+    text-align: center;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.logo-p{
+    margin-top: 80px;
+    display: inline-block;
+    margin-right: 0px;
+    
+    
+}
+.logo{
+    width: 396px;
+    height: 86px;
+    padding-right: 120px;
+}
+
+.logo-p h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    margin-left: 30px;
+}
